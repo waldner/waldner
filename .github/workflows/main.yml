@@ -18,6 +18,6 @@ jobs:
           config_timezone: Europe/Madrid
           base: header
           plugin_isocalendar: yes
+          plugin_achievements: yes
           plugin_languages: yes
-          plugin_stars: yes
-          config_order: base.header, isocalendar, languages, stars
+          config_order: base.header, isocalendar, achievements, languages
