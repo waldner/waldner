@@ -13,7 +13,7 @@ jobs:
       contents: write
     steps:
       #- uses: lowlighter/metrics@96dde98a034ab75fec7884f9161bc12759275d36    
-      - uses: lowlighter/metrics@latest
+      - uses: gh-metrics/metrics@latest
         with:
           token: ${{ secrets.ACCESS_TOKEN }}          
           # Options
